@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Minicho - fe09adf4ae5e800fcb9b1031cc362b31bcb37792</title>
+        <meta name = "viewport" content = "user-scalable = no">
+
+		<title>Minicho - 124a2d235706b988bbb9e480c6c32f401dae418d</title>
 
 		<style>
 			* {
@@ -33,31 +35,62 @@
 				display: none;
 			}
 
-            #joyDiv {
-                position: absolute;
-                bottom: 50px;
-                left: 0px;
-                z-index: 101;
-                width: 150px;
-                height: 150px;
-                display: none;
+            @media screen and (orientation:landscape) {
+                #joyDiv {
+                    position: absolute;
+                    bottom: 50px;
+                    left: 0px;
+                    z-index: 101;
+                    width: 250px;
+                    height: 250px;
+                    display: none;
+                }
+
+                #virtualButtonsContainer {
+                    position: absolute;
+                    bottom: 80px;
+                    right: 50px;
+                    z-index: 101;
+                    width: 100px;
+                    height: 250px;
+                    display: none;
+                }
+            
+                #virtualButtonsContainer > div {
+                    width: 100px;
+                    height: 100px;
+                    display: block;
+                    background-size: 100%;
+                }
             }
 
-            #virtualButtonsContainer {
-                position: absolute;
-                bottom: 80px;
-                right: 50px;
-                z-index: 101;
-                width: 100px;
-                height: 250px;
-                display: none;
-            }
+            @media screen and (orientation:portrait) {
+                #joyDiv {
+                    position: absolute;
+                    bottom: 50px;
+                    left: 0px;
+                    z-index: 101;
+                    width: 50%;
+                    height: 50%;
+                    display: none;
+                }
+
+                #virtualButtonsContainer {
+                    position: absolute;
+                    bottom: 80px;
+                    right: 50px;
+                    z-index: 101;
+                    width: 200px;
+                    height: 500px;
+                    display: none;
+                }
             
-            #virtualButtonsContainer > div {
-                width: 100px;
-                height: 100px;
-                display: block;
-                background-size: 100%;
+                #virtualButtonsContainer > div {
+                    width: 200px;
+                    height: 200px;
+                    display: block;
+                    background-size: 100%;
+                }
             }
 
             #virtualActionButton {
@@ -90,8 +123,8 @@
 		</style>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js" integrity="sha512-+Ru50BzEpZjlFzVnjSmJfYFPFfY2hS0Kjlu/IvqaJoux7maF5lJrRVUJWJ2LevPls7rd242GLbWEt+zAo4OVVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script crossorigin src="libs/joy.min.js"></script>
-      <script type="module" crossorigin src="assets/index.85925f48.js"></script>
+        <script src="libs/joy.min.js"></script>
+      <script type="module" crossorigin src="assets/index.f06dc46f.js"></script>
     </head>
 
 	<body>
