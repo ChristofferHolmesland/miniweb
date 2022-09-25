@@ -14,22 +14,22 @@
     },
     "files": {
         "entities": {
-            "url": "/assets/entities.png",
+            "url": "assets/entities.png",
             "unitSizeX": 8,
             "unitSizeY": 8
         },
         "gui": {
-            "url": "/assets/gui.png",
+            "url": "assets/gui.png",
             "unitSizeX": 8,
             "unitSizeY": 8
         },
         "items": {
-            "url": "/assets/items.png",
+            "url": "assets/items.png",
             "unitSizeX": 8,
             "unitSizeY": 8
         },
         "tiles": {
-            "url": "/assets/tiles.png",
+            "url": "assets/tiles.png",
             "unitSizeX": 8,
             "unitSizeY": 8
         }
