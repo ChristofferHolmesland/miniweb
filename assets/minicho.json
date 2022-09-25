@@ -1,0 +1,168 @@
+{
+    "meta": {
+        "documentType": "resourcepack",
+        "documentTypeVersion": 1
+    },
+    "author": {
+        "link": "https://github.com/ChristofferHolmesland",
+        "name": "cho"
+    },
+    "pack": {
+        "version": 1,
+        "supportedGameVersionMin": 1,
+        "supportedGameVersionMax": 1
+    },
+    "files": {
+        "entities": {
+            "url": "/assets/entities.png",
+            "unitSizeX": 8,
+            "unitSizeY": 8
+        },
+        "gui": {
+            "url": "/assets/gui.png",
+            "unitSizeX": 8,
+            "unitSizeY": 8
+        },
+        "items": {
+            "url": "/assets/items.png",
+            "unitSizeX": 8,
+            "unitSizeY": 8
+        },
+        "tiles": {
+            "url": "/assets/tiles.png",
+            "unitSizeX": 8,
+            "unitSizeY": 8
+        }
+    },
+    "colors": {
+        "white": "FFFFFF",
+        "dirt": "816953"
+    },
+    "paint_rules": [
+        {
+            "match": "^grass_connector_[\\d]*$",
+            "paint": [
+                ["white", "dirt"]
+            ]
+        },
+        {
+            "match": "^rock_connector_[\\d]*$",
+            "paint": [
+                ["white", "dirt"]
+            ]
+        },
+        {
+            "match": "^sand_connector_[\\d]*$",
+            "paint": [
+                ["white", "dirt"]
+            ]
+        },
+        {
+            "match": "^hole_connector_[\\d]*$",
+            "paint": [
+                ["white", "dirt"]
+            ]
+        }
+    ],
+    "textures": {
+        "tiles": {
+            "flower": { "x": 3, "y": 8 },
+            "tree": { "x": 0, "y": 0, "w": 2, "h": 2 },
+            "cactus": { "x": 6, "y": 0, "w": 2, "h": 2 },
+            "treeSapling": { "x": 12, "y": 1 },
+            "farm": { "x": 12, "y": 0 },
+            "stairs_up": { "x": 19, "y": 0, "w": 2, "h": 2 },
+            "stairs_down": { "x": 21, "y": 0, "w": 2, "h": 2 },
+            "iron_ore": { "x": 24, "y": 0, "w": 2, "h": 2 },
+            "gold_ore": { "x": 28, "y": 0, "w": 2, "h": 2 },
+            "gem_ore": { "x": 30, "y": 0, "w": 2, "h": 2 },
+            "cloud_cactus": { "x": 6, "y": 2, "w": 2, "h": 2 }
+        }
+    },
+    "textures_cube_generator": {
+        "tiles": {
+            "grass_": {
+                "n": 4,
+                "startX": 3,
+                "startY": 6
+            },
+            "grass_connector_": {
+                "n": 9,
+                "startX": 0,
+                "startY": 6
+            },
+            "rock_": {
+                "n": 4,
+                "startX": 21,
+                "startY": 6
+            },
+            "rock_connector_": {
+                "n": 9,
+                "startX": 18,
+                "startY": 6
+            },
+            "dirt_": {
+                "n": 4,
+                "startX": 14,
+                "startY": 4
+            },
+            "sand_": {
+                "n": 4,
+                "startX": 9,
+                "startY": 6
+            },
+            "sand_connector_": {
+                "n": 9,
+                "startX": 6,
+                "startY": 6
+            },
+            "hole_": {
+                "n": 4,
+                "startX": 27,
+                "startY": 6
+            },
+            "hole_connector_": {
+                "n": 9,
+                "startX": 24,
+                "startY": 6
+            },
+            "cloud_": {
+                "n": 4,
+                "startX": 3,
+                "startY": 22
+            },
+            "cloud_connector_": {
+                "n": 9,
+                "startX": 0,
+                "startY": 22
+            },
+            "infinite_fall_": {
+                "n": 4,
+                "startX": 3,
+                "startY": 24
+            }
+        }
+    },
+    "textures_horizontal_generator": {
+        "tiles": {
+            "water_": {
+                "n": 4,
+                "startX": 2,
+                "startY": 0
+            },
+            "wheat_": {
+                "n": 6,
+                "startX": 13,
+                "startY": 0
+            },
+            "lava_": {
+                "n": 4,
+                "startX": 2,
+                "startY": 1
+            }
+        }
+    },
+    "textures_vertical_generator": {
+
+    }
+}
