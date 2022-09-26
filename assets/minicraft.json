@@ -14,25 +14,25 @@
     },
     "files": {
         "entities": {
-            "url": "/assets/entities.png",
+            "url": "/assets/minicraft_entities.png",
             "unitSizeX": 8,
             "unitSizeY": 8,
             "prefix": "entity_"
         },
         "gui": {
-            "url": "/assets/gui.png",
+            "url": "/assets/minicraft_gui.png",
             "unitSizeX": 8,
             "unitSizeY": 8,
             "prefix": "gui_"
         },
         "items": {
-            "url": "/assets/items.png",
+            "url": "/assets/minicraft_items.png",
             "unitSizeX": 8,
             "unitSizeY": 8,
             "prefix": "item_"
         },
         "tiles": {
-            "url": "/assets/tiles.png",
+            "url": "/assets/minicraft_tiles.png",
             "unitSizeX": 8,
             "unitSizeY": 8,
             "prefix": "tile_"
